@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HW3.dir/Functions.cpp.obj"
-  "CMakeFiles/HW3.dir/main.cpp.obj"
+  "CMakeFiles/HW3.dir/Boxprint.cpp.obj"
+  "CMakeFiles/HW3.dir/boxer.cpp.obj"
   "HW3.exe"
   "HW3.exe.manifest"
   "HW3.pdb"

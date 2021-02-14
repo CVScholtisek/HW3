@@ -5,9 +5,19 @@
 
 #include <iostream>
 #include "boxer.h"
-
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    string stringinput;
+    cout << "Type a string:";
+    cin >> stringinput;
+
+    int thick;
+    cout << "How thick should the box be? (integer):";
+    cin >> thick;
+
+    box(stringinput, thick);
+
     return 0;
 }

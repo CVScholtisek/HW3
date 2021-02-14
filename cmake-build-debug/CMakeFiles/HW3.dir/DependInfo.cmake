@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Clinterpottrmus/CLionProjects/HW3/Functions.cpp" "C:/Users/Clinterpottrmus/CLionProjects/HW3/cmake-build-debug/CMakeFiles/HW3.dir/Functions.cpp.obj"
-  "C:/Users/Clinterpottrmus/CLionProjects/HW3/main.cpp" "C:/Users/Clinterpottrmus/CLionProjects/HW3/cmake-build-debug/CMakeFiles/HW3.dir/main.cpp.obj"
+  "C:/Users/Clinterpottrmus/CLionProjects/HW3/Boxprint.cpp" "C:/Users/Clinterpottrmus/CLionProjects/HW3/cmake-build-debug/CMakeFiles/HW3.dir/Boxprint.cpp.obj"
+  "C:/Users/Clinterpottrmus/CLionProjects/HW3/boxer.cpp" "C:/Users/Clinterpottrmus/CLionProjects/HW3/cmake-build-debug/CMakeFiles/HW3.dir/boxer.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

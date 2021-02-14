@@ -142,59 +142,59 @@ HW3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/build
 .PHONY : HW3/fast
 
-Functions.obj: Functions.cpp.obj
+Boxprint.obj: Boxprint.cpp.obj
 
-.PHONY : Functions.obj
-
-# target to build an object file
-Functions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/Functions.cpp.obj
-.PHONY : Functions.cpp.obj
-
-Functions.i: Functions.cpp.i
-
-.PHONY : Functions.i
-
-# target to preprocess a source file
-Functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/Functions.cpp.i
-.PHONY : Functions.cpp.i
-
-Functions.s: Functions.cpp.s
-
-.PHONY : Functions.s
-
-# target to generate assembly for a file
-Functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/Functions.cpp.s
-.PHONY : Functions.cpp.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
+.PHONY : Boxprint.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Boxprint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/Boxprint.cpp.obj
+.PHONY : Boxprint.cpp.obj
 
-main.i: main.cpp.i
+Boxprint.i: Boxprint.cpp.i
 
-.PHONY : main.i
+.PHONY : Boxprint.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/main.cpp.i
-.PHONY : main.cpp.i
+Boxprint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/Boxprint.cpp.i
+.PHONY : Boxprint.cpp.i
 
-main.s: main.cpp.s
+Boxprint.s: Boxprint.cpp.s
 
-.PHONY : main.s
+.PHONY : Boxprint.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/main.cpp.s
-.PHONY : main.cpp.s
+Boxprint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/Boxprint.cpp.s
+.PHONY : Boxprint.cpp.s
+
+boxer.obj: boxer.cpp.obj
+
+.PHONY : boxer.obj
+
+# target to build an object file
+boxer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/boxer.cpp.obj
+.PHONY : boxer.cpp.obj
+
+boxer.i: boxer.cpp.i
+
+.PHONY : boxer.i
+
+# target to preprocess a source file
+boxer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/boxer.cpp.i
+.PHONY : boxer.cpp.i
+
+boxer.s: boxer.cpp.s
+
+.PHONY : boxer.s
+
+# target to generate assembly for a file
+boxer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HW3.dir\build.make CMakeFiles/HW3.dir/boxer.cpp.s
+.PHONY : boxer.cpp.s
 
 # Help Target
 help:
@@ -205,12 +205,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... HW3
-	@echo ... Functions.obj
-	@echo ... Functions.i
-	@echo ... Functions.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Boxprint.obj
+	@echo ... Boxprint.i
+	@echo ... Boxprint.s
+	@echo ... boxer.obj
+	@echo ... boxer.i
+	@echo ... boxer.s
 .PHONY : help
 
 
