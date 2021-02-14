@@ -14,8 +14,9 @@ void topbotbox(string stringinput, int thick) {
 
     //Middle asterisks
     for (int i = 0; i < stringinput.length() + 2; i++){
-        cout << "*" << endl;
+        cout << "*";
     }
+    cout << endl;
 
 }
 
@@ -32,9 +33,9 @@ void MiddleboxNostring(string stringinput, int thick) {
 
     //Second wall
     for (int i = 0; i < thick; i++){
-        cout << "*" << endl;
+        cout << "*";
     }
-
+    cout << endl;
 }
 
 void MiddleboxString(string stringinput, int thick) {
@@ -48,9 +49,9 @@ void MiddleboxString(string stringinput, int thick) {
 
     //Second wall
     for (int i = 0; i < thick; i++){
-        cout << "*" << endl;
+        cout << "*";
     }
-
+    cout << endl;
 }
 
 void box(string stringinput, int thick){
