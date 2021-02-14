@@ -9,14 +9,17 @@ using namespace std;
 
 int main() {
 
+    //Prompts user for string
     string stringinput;
     cout << "Type a string:";
     cin >> stringinput;
 
+    //Prompts user for size integer
     int thick;
     cout << "How thick should the box be? (integer):";
     cin >> thick;
 
+    //runs box function
     box(stringinput, thick);
 
     return 0;
