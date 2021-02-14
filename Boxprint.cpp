@@ -9,18 +9,24 @@ using namespace std;
 
 int main() {
 
-    //Prompts user for string
-    string stringinput;
-    cout << "Type a string:";
-    cin >> stringinput;
+    while (true) {
+        //Prompts user for string
+        string stringinput;
+        cout << "Type a string with no spaces (Or type exit to quit):";
+        cin >> stringinput;
 
-    //Prompts user for size integer
-    int thick;
-    cout << "How thick should the box be? (integer):";
-    cin >> thick;
+        //Checks for exit command
+        if (stringinput == "exit") {
+            return 0;
+        }
 
-    //runs box function
-    box(stringinput, thick);
+        //Prompts user for size integer
+        int thick;
+        cout << "How thick should the box be? (integer):";
+        cin >> thick;
 
+        //run box function
+        box(stringinput, thick);
+    }
     return 0;
 }
